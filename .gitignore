@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Uploaded files (keep directories, ignore contents)
+uploads/cars/*
+uploads/documents/*
+!uploads/cars/.gitkeep
+!uploads/documents/.gitkeep
+
+# Build
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Vercel
+.vercel
+
